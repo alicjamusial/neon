@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT4232H_CN2
+D FTDI Chip, Mini-Module USB to Serial/FIFO (Quad) Development Board, FT4232H MINI MODULE
+F https://www.arrow.com/en/products/ft4232hminimodule/ftdi-chip
+$ENDCMP
+#
+$CMP FT4232H_CN3
+D FTDI Chip, Mini-Module USB to Serial/FIFO (Quad) Development Board, FT4232H MINI MODULE
+F https://www.arrow.com/en/products/ft4232hminimodule/ftdi-chip
+$ENDCMP
+#
+#End Doc Library
