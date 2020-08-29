@@ -62,4 +62,84 @@ Wire Wire Line
 	5950 3400 5900 3400
 Wire Wire Line
 	5950 3600 5900 3600
+Text HLabel 5900 3700 0    50   UnSpc ~ 0
+BD0
+Text HLabel 5900 3800 0    50   UnSpc ~ 0
+BD2
+Text HLabel 5900 3900 0    50   UnSpc ~ 0
+BD4
+Text HLabel 5900 4000 0    50   UnSpc ~ 0
+BD5
+Text HLabel 5900 4100 0    50   UnSpc ~ 0
+BD7
+Text HLabel 7150 3700 2    50   UnSpc ~ 0
+BD1
+Text HLabel 7150 3800 2    50   UnSpc ~ 0
+BD3
+Text HLabel 7150 4000 2    50   UnSpc ~ 0
+BD6
+Text HLabel 5400 3300 2    50   UnSpc ~ 0
+DD7
+Text HLabel 5400 3400 2    50   UnSpc ~ 0
+DD5
+Text HLabel 5400 3500 2    50   UnSpc ~ 0
+DD4
+Text HLabel 5400 3600 2    50   UnSpc ~ 0
+DD2
+Text HLabel 5400 3700 2    50   UnSpc ~ 0
+DD0
+Text HLabel 5400 3800 2    50   UnSpc ~ 0
+CD6
+Text HLabel 5400 3900 2    50   UnSpc ~ 0
+CD4
+Text HLabel 5400 4000 2    50   UnSpc ~ 0
+CD3
+Text HLabel 5400 4100 2    50   UnSpc ~ 0
+CD1
+Text HLabel 4150 4100 0    50   UnSpc ~ 0
+CD0
+Text HLabel 4150 4000 0    50   UnSpc ~ 0
+CD2
+Text HLabel 4150 3800 0    50   UnSpc ~ 0
+CD5
+Text HLabel 4150 3700 0    50   UnSpc ~ 0
+CD7
+Text HLabel 4150 3600 0    50   UnSpc ~ 0
+DD1
+Text HLabel 4150 3500 0    50   UnSpc ~ 0
+DD3
+Text HLabel 4150 3300 0    50   UnSpc ~ 0
+DD6
+Wire Wire Line
+	5400 3300 5350 3300
+Wire Wire Line
+	5400 3400 5350 3400
+Wire Wire Line
+	5400 3500 5350 3500
+Wire Wire Line
+	5400 3600 5350 3600
+Wire Wire Line
+	5400 3700 5350 3700
+Wire Wire Line
+	5400 3800 5350 3800
+Wire Wire Line
+	5400 3900 5350 3900
+Wire Wire Line
+	5400 4000 5350 4000
+Wire Wire Line
+	5400 4100 5350 4100
+Wire Wire Line
+	4150 4100 4200 4100
+Wire Wire Line
+	4150 4000 4200 4000
+Wire Wire Line
+	4200 3800 4150 3800
+Wire Wire Line
+	4200 3700 4150 3700
+Wire Wire Line
+	4200 3600 4150 3600
+Wire Wire Line
+	4200 3500 4150 3500
+Wire Wire Line
+	4200 3300 4150 3300
 $EndSCHEMATC
