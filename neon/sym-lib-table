@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name FTDI)(type Legacy)(uri ${KIPRJMOD}/libs/FTDI.lib)(options "")(descr ""))
+  (lib (name FTDI_transistors)(type Legacy)(uri ${KIPRJMOD}/libs/FTDI_transistors.lib)(options "")(descr ""))
 )

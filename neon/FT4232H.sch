@@ -137,8 +137,6 @@ Wire Wire Line
 	7150 3800 7100 3800
 Wire Wire Line
 	7150 3700 7100 3700
-Text HLabel 7150 2900 2    50   UnSpc ~ 0
-V3V3
 Wire Wire Line
 	7150 2900 7100 2900
 NoConn ~ 7100 3000
@@ -186,4 +184,6 @@ F 3 "" H 6950 2900 50  0001 L CNN
 $EndComp
 Wire Wire Line
 	4200 2900 4150 2900
+Text GLabel 7150 2900 2    50   Input ~ 0
+V3V3
 $EndSCHEMATC

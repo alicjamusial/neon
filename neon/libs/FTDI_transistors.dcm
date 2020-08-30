@@ -42,40 +42,10 @@ K PNP Transistor
 F http://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661
 $ENDCMP
 #
-$CMP FT4232H_CN2
-D FT4232H MINI MODULE, CN2
-$ENDCMP
-#
-$CMP FT4232H_CN3
-D FT4232H MINI MODULE, CN3
-$ENDCMP
-#
-$CMP FT4232H_module
-D FT4232H MINI MODULE, CN2
-$ENDCMP
-#
 $CMP MMBT3906
 D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23
 K PNP Transistor
 F https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
-$ENDCMP
-#
-$CMP V3V3-GND
-D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
-$CMP V3V3-VIO
-D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
-$CMP VBUS-VCC
-D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
 $ENDCMP
 #
 #End Doc Library
