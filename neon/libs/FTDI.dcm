@@ -12,6 +12,18 @@ $CMP FT4232H_module
 D FT4232H MINI MODULE, CN2
 $ENDCMP
 #
+$CMP V3V3-GND
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP V3V3-VIO
+D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP VBUS-VCC
 D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
