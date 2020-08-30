@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name neon_footprints)(type KiCad)(uri ${KIPRJMOD}/libs/neon_footprints.pretty)(options "")(descr ""))
+)
