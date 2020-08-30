@@ -15,10 +15,6 @@ Comment4 ""
 $EndDescr
 NoConn ~ 7100 4100
 NoConn ~ 5950 3200
-NoConn ~ 5350 3100
-NoConn ~ 5350 3200
-NoConn ~ 4200 3200
-NoConn ~ 4200 3100
 Text HLabel 7150 3300 2    50   UnSpc ~ 0
 AD2
 Wire Wire Line
@@ -175,7 +171,7 @@ U 1 1 5F4CD349
 P 5900 2900
 F 0 "U1" H 4400 3200 50  0001 L CNN
 F 1 "FT4232H_module" H 5650 3091 50  0000 C CNN
-F 2 "neon_footprints:FT4232H-MINI-MODULE" H 6950 3000 50  0001 L CNN
+F 2 "neon_footprints:FT4232H-MINI-MODULE-2" H 6950 3000 50  0001 L CNN
 F 3 "" H 6950 2900 50  0001 L CNN
 	1    5900 2900
 	1    0    0    -1  
@@ -196,4 +192,20 @@ F 3 "" H 4150 2900 50  0001 C CNN
 	1    4150 2900
 	0    1    1    0   
 $EndComp
+Text HLabel 5400 3100 2    50   UnSpc ~ 0
+CS
+Text HLabel 5400 3200 2    50   UnSpc ~ 0
+DATA
+Wire Wire Line
+	5400 3100 5350 3100
+Wire Wire Line
+	5400 3200 5350 3200
+Text HLabel 4150 3100 0    50   UnSpc ~ 0
+CLK
+Text HLabel 4150 3200 0    50   UnSpc ~ 0
+PWREN
+Wire Wire Line
+	4200 3100 4150 3100
+Wire Wire Line
+	4200 3200 4150 3200
 $EndSCHEMATC

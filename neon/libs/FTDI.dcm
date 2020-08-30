@@ -1,5 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74AHC595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K AHCMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf
+$ENDCMP
+#
+$CMP 74AHCT595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K AHCTMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf
+$ENDCMP
+#
+$CMP 74HC595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K HCMOS SR 3State
+F http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+$ENDCMP
+#
+$CMP 74HCT595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K HCTMOS SR 3State
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP 74LS595
+D 8-bit serial in/out Shift Register 3-State Outputs
+K TTL SR 3State
+F http://www.ti.com/lit/gpn/sn74ls595
+$ENDCMP
+#
 $CMP FT4232H_CN2
 D FT4232H MINI MODULE, CN2
 $ENDCMP
@@ -10,6 +40,12 @@ $ENDCMP
 #
 $CMP FT4232H_module
 D FT4232H MINI MODULE, CN2
+$ENDCMP
+#
+$CMP R_Pack04
+D 4 resistor network, parallel topology
+K R network parallel topology isolated
+F ~
 $ENDCMP
 #
 $CMP V3V3-GND
