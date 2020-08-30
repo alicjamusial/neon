@@ -301,7 +301,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5F4BA8F7)
-    (at 124.46 126.5136 90)
+    (at 125.095 126.5136 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5F56E993)
@@ -1918,7 +1918,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5F4BA8BF)
-    (at 166.245 83.545 270)
+    (at 165.735 83.545 270)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5F520AE1)
@@ -1970,7 +1970,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5F4BA8DB)
-    (at 143.385 83.545 270)
+    (at 142.875 83.545 270)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5F52AE75)
@@ -2022,7 +2022,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5F4BA913)
-    (at 147.32 126.5136 90)
+    (at 147.955 126.5136 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x08 2.54mm single row")
     (path /5F51EDE5)
@@ -2210,11 +2210,11 @@
   (segment (start 135.9779 120.6716) (end 137.3264 120.6716) (width 0.127) (layer F.Cu) (net 32))
   (segment (start 137.3264 120.6716) (end 137.3264 120.6716) (width 0.127) (layer F.Cu) (net 32) (tstamp 5F4C7DDD))
   (via (at 137.4534 120.6716) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 32))
-  (segment (start 127 126.5136) (end 132.08 121.4336) (width 0.127) (layer B.Cu) (net 32))
-  (segment (start 132.08 121.4336) (end 132.08 120.65) (width 0.127) (layer B.Cu) (net 32))
   (segment (start 137.4534 120.6716) (end 132.1016 120.6716) (width 0.127) (layer B.Cu) (net 32))
+  (segment (start 132.08 122.0686) (end 127.635 126.5136) (width 0.127) (layer B.Cu) (net 32))
+  (segment (start 132.08 120.65) (end 132.08 122.0686) (width 0.127) (layer B.Cu) (net 32))
   (via (at 126.1184 120.6396) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 33))
-  (segment (start 126.1184 124.8552) (end 124.46 126.5136) (width 0.127) (layer B.Cu) (net 33))
-  (segment (start 126.1184 120.6396) (end 126.1184 124.8552) (width 0.127) (layer B.Cu) (net 33))
+  (segment (start 126.1184 125.4902) (end 125.095 126.5136) (width 0.127) (layer B.Cu) (net 33))
+  (segment (start 126.1184 120.6396) (end 126.1184 125.4902) (width 0.127) (layer B.Cu) (net 33))
 
 )
