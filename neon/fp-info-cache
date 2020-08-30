@@ -1,4 +1,4 @@
-18628447639292645
+18631645192704354
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82046,3 +82046,17 @@ Undefined or Miscellaneous
 0
 52
 52
+neon_footprints
+FT4232H-MINI-MODULE-2
+FT4232H MINI MODULE
+Undefined or Miscellaneous
+0
+52
+52
+neon_footprints
+LED_0805_2012Metric
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode
+0
+2
+2
