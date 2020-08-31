@@ -19,7 +19,7 @@ U 1 1 5F52AE75
 P 3450 3050
 F 0 "U5" H 3900 3050 50  0000 C CNN
 F 1 "DBUS" H 3950 2950 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3425 3725 50  0001 C CNN
+F 2 "neon_footprints:PinHeader_1x08_P2.54mm_Vertical" H 3425 3725 50  0001 C CNN
 F 3 "" H 3425 3725 50  0001 C CNN
 	1    3450 3050
 	-1   0    0    -1  
@@ -56,7 +56,7 @@ U 1 1 5F520AE1
 P 3450 2000
 F 0 "U4" H 3950 2000 50  0000 R CNN
 F 1 "CBUS" H 3950 1900 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3425 2675 50  0001 C CNN
+F 2 "neon_footprints:PinHeader_1x08_P2.54mm_Vertical" H 3425 2675 50  0001 C CNN
 F 3 "" H 3425 2675 50  0001 C CNN
 	1    3450 2000
 	-1   0    0    -1  
@@ -91,7 +91,7 @@ U 1 1 5F56E993
 P 8150 2000
 F 0 "U2" H 8550 2000 50  0000 L CNN
 F 1 "ABUS" H 8650 1900 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8125 2675 50  0001 C CNN
+F 2 "neon_footprints:PinHeader_1x08_P2.54mm_Vertical" H 8125 2675 50  0001 C CNN
 F 3 "" H 8125 2675 50  0001 C CNN
 	1    8150 2000
 	1    0    0    -1  
@@ -102,7 +102,7 @@ U 1 1 5F51EDE5
 P 8150 3050
 F 0 "U3" H 8528 3051 50  0000 L CNN
 F 1 "BBUS" H 8528 2960 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 8125 3725 50  0001 C CNN
+F 2 "neon_footprints:PinHeader_1x08_P2.54mm_Vertical" H 8125 3725 50  0001 C CNN
 F 3 "" H 8125 3725 50  0001 C CNN
 	1    8150 3050
 	1    0    0    -1  
