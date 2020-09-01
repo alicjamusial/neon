@@ -647,17 +647,6 @@ F 3 "" H 8200 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI:V3V3-GND J2
-U 1 1 5F4F5A0D
-P 7900 5000
-F 0 "J2" V 8100 4850 50  0000 L CNN
-F 1 "V3V3-GND" H 7900 4800 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7900 5000 50  0001 C CNN
-F 3 "~" H 7900 5000 50  0001 C CNN
-	1    7900 5000
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR06
 U 1 1 5F4F4975
 P 8200 5900
@@ -786,4 +775,59 @@ Wire Wire Line
 	7700 2950 7700 3700
 Wire Wire Line
 	7800 2950 7800 3800
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5F687DE6
+P 11000 6250
+F 0 "H4" H 10800 6300 50  0000 L CNN
+F 1 "MountingHole" H 10400 6200 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 11000 6250 50  0001 C CNN
+F 3 "~" H 11000 6250 50  0001 C CNN
+	1    11000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5F689368
+P 11000 6000
+F 0 "H3" H 10800 6050 50  0000 L CNN
+F 1 "MountingHole" H 10400 5950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 11000 6000 50  0001 C CNN
+F 3 "~" H 11000 6000 50  0001 C CNN
+	1    11000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5F6917E6
+P 11000 5750
+F 0 "H2" H 10800 5800 50  0000 L CNN
+F 1 "MountingHole" H 10400 5700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 11000 5750 50  0001 C CNN
+F 3 "~" H 11000 5750 50  0001 C CNN
+	1    11000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5F699B09
+P 11000 5500
+F 0 "H1" H 10800 5550 50  0000 L CNN
+F 1 "MountingHole" H 10400 5450 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 11000 5500 50  0001 C CNN
+F 3 "~" H 11000 5500 50  0001 C CNN
+	1    11000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FTDI:V3V3-GND J2
+U 1 1 5F4F5A0D
+P 7900 5000
+F 0 "J2" V 8100 4850 50  0000 L CNN
+F 1 "V3V3-GND" H 7900 4800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7900 5000 50  0001 C CNN
+F 3 "~" H 7900 5000 50  0001 C CNN
+	1    7900 5000
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
