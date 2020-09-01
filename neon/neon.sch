@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4600 4300 5200 4300
+	4400 4300 5200 4300
 Wire Wire Line
 	5200 3400 4200 3400
 Wire Wire Line
@@ -55,7 +55,7 @@ Wire Wire Line
 	3650 3800 3800 3800
 Wire Wire Line
 	3650 3700 3900 3700
-Text GLabel 6950 4200 0    50   Input ~ 0
+Text GLabel 7150 4200 0    50   Input ~ 0
 V3V3
 Wire Wire Line
 	6650 6050 6650 4550
@@ -63,13 +63,12 @@ Wire Wire Line
 	6650 4550 6400 4550
 Wire Wire Line
 	6200 6050 6650 6050
-Connection ~ 6950 4300
 Wire Wire Line
 	6400 4300 6950 4300
 Wire Wire Line
 	6950 4300 6950 5750
 Wire Wire Line
-	4600 4200 5200 4200
+	4400 4200 5200 4200
 Connection ~ 6650 6050
 Connection ~ 6950 6050
 Wire Wire Line
@@ -572,24 +571,13 @@ $EndComp
 $Comp
 L FTDI:VBUS-VCC J5
 U 1 1 5F51B746
-P 4300 4200
-F 0 "J5" H 4350 4300 50  0000 L CNN
-F 1 "VBUS-VCC" H 4450 4000 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4300 4200 50  0001 C CNN
-F 3 "~" H 4300 4200 50  0001 C CNN
-	1    4300 4200
+P 4100 4200
+F 0 "J5" H 4150 4300 50  0000 L CNN
+F 1 "VBUS-VCC" H 4250 4000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 4200 50  0001 C CNN
+F 3 "~" H 4100 4200 50  0001 C CNN
+	1    4100 4200
 	-1   0    0    -1  
-$EndComp
-$Comp
-L FTDI:V3V3-VIO J1
-U 1 1 5F4B4881
-P 7250 4300
-F 0 "J1" H 7150 4400 50  0000 L CNN
-F 1 "V3V3-VIO" H 7250 4100 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7250 4300 50  0001 C CNN
-F 3 "~" H 7250 4300 50  0001 C CNN
-	1    7250 4300
-	1    0    0    1   
 $EndComp
 $Comp
 L FTDI:74HC595 U6
@@ -829,5 +817,46 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7900 5000 50 
 F 3 "~" H 7900 5000 50  0001 C CNN
 	1    7900 5000
 	-1   0    0    1   
+$EndComp
+$Comp
+L FTDI:V3V3-VIO J1
+U 1 1 5F4B4881
+P 7450 4300
+F 0 "J1" H 7350 4400 50  0000 L CNN
+F 1 "V3V3-VIO" H 7450 4100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7450 4300 50  0001 C CNN
+F 3 "~" H 7450 4300 50  0001 C CNN
+	1    7450 4300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7150 4300 7100 4300
+Connection ~ 6950 4300
+Wire Wire Line
+	7100 4300 7100 4650
+Connection ~ 7100 4300
+Wire Wire Line
+	7100 4300 6950 4300
+$Comp
+L Device:C C1
+U 1 1 5F6FF541
+P 7100 4800
+F 0 "C1" H 7215 4846 50  0000 L CNN
+F 1 "100nF" H 7215 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7138 4650 50  0001 C CNN
+F 3 "~" H 7100 4800 50  0001 C CNN
+	1    7100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F6FFFFA
+P 7100 4950
+F 0 "#PWR02" H 7100 4700 50  0001 C CNN
+F 1 "GND" H 7105 4777 50  0000 C CNN
+F 2 "" H 7100 4950 50  0001 C CNN
+F 3 "" H 7100 4950 50  0001 C CNN
+	1    7100 4950
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
