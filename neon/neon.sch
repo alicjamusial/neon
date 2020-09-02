@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4400 4300 5200 4300
+	4400 4300 4650 4300
 Wire Wire Line
 	5200 3400 4200 3400
 Wire Wire Line
@@ -115,8 +115,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 5750 4550 5750
 Wire Wire Line
-	4500 4950 4950 4950
-Wire Wire Line
 	4550 5750 4550 5700
 Wire Wire Line
 	4550 5700 4500 5700
@@ -150,8 +148,6 @@ Wire Wire Line
 	4650 5450 4650 5650
 Wire Wire Line
 	4650 5650 4950 5650
-Wire Wire Line
-	3950 4950 4200 4950
 Wire Wire Line
 	4200 5200 3950 5200
 Connection ~ 3950 5200
@@ -530,17 +526,6 @@ F 3 "~" H 4350 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D1
-U 1 1 5F56F686
-P 4350 4950
-F 0 "D1" H 4500 5000 50  0000 C CNN
-F 1 "LED" H 4200 5000 50  0000 C CNN
-F 2 "neon_footprints:LED_0805_2012Metric" H 4350 4950 50  0001 C CNN
-F 3 "~" H 4350 4950 50  0001 C CNN
-	1    4350 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L FTDI:R_Pack04 RN2
 U 1 1 5F54B400
 P 5150 6050
@@ -565,13 +550,13 @@ $EndComp
 $Comp
 L FTDI:VBUS-VCC J5
 U 1 1 5F51B746
-P 4100 4200
-F 0 "J5" H 4150 4300 50  0000 L CNN
-F 1 "VBUS-VCC" H 4250 4000 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 4200 50  0001 C CNN
-F 3 "~" H 4100 4200 50  0001 C CNN
-	1    4100 4200
-	-1   0    0    -1  
+P 4100 4300
+F 0 "J5" H 4000 4400 50  0000 L CNN
+F 1 "VBUS-VCC" H 4250 4100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4100 4300 50  0001 C CNN
+F 3 "~" H 4100 4300 50  0001 C CNN
+	1    4100 4300
+	-1   0    0    1   
 $EndComp
 $Comp
 L FTDI:74HC595 U6
@@ -839,4 +824,65 @@ Text GLabel 9200 5100 2    50   Input ~ 0
 V3V3
 Text GLabel 9200 5200 2    50   Input ~ 0
 V3V3
+$Comp
+L Device:LED D1
+U 1 1 5F56F686
+P 4350 4950
+F 0 "D1" H 4500 5000 50  0000 C CNN
+F 1 "LED" H 4200 5000 50  0000 C CNN
+F 2 "neon_footprints:LED_0805_2012Metric" H 4350 4950 50  0001 C CNN
+F 3 "~" H 4350 4950 50  0001 C CNN
+	1    4350 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4950 4200 4950
+Wire Wire Line
+	4500 4950 4950 4950
+Wire Wire Line
+	3200 4700 3200 4550
+Wire Wire Line
+	3200 4550 4650 4550
+Wire Wire Line
+	4650 4550 4650 4300
+Connection ~ 4650 4300
+Wire Wire Line
+	4650 4300 5200 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5F529E27
+P 3200 5850
+F 0 "#PWR?" H 3200 5600 50  0001 C CNN
+F 1 "GND" H 3205 5677 50  0000 C CNN
+F 2 "" H 3200 5850 50  0001 C CNN
+F 3 "" H 3200 5850 50  0001 C CNN
+	1    3200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F53C653
+P 3200 4850
+F 0 "R?" V 3300 4850 50  0000 C CNN
+F 1 "100" V 3100 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3130 4850 50  0001 C CNN
+F 3 "~" H 3200 4850 50  0001 C CNN
+	1    3200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5650 3200 5850
+$Comp
+L Device:LED D?
+U 1 1 5F515BB1
+P 3200 5500
+F 0 "D?" H 3350 5550 50  0000 C CNN
+F 1 "LED" H 3050 5550 50  0000 C CNN
+F 2 "neon_footprints:LED_0805_2012Metric" H 3200 5500 50  0001 C CNN
+F 3 "~" H 3200 5500 50  0001 C CNN
+	1    3200 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 5350 3200 5000
 $EndSCHEMATC
