@@ -2,7 +2,7 @@
 
 ### about the project
 
-<img align="left" width="100" height="100" src="https://raw.githubusercontent.com/alicjamusial/neon/master/NEON.png?token=ADRBKKWMFAFR7CQ3XAW7DLK7OYRAK"> Neon is a PCB project designed as an adapter for FTDI FT4232H Mini Module board. It includes four marked sockets (A, B, C, D) with logic analyser output for all FTDI's UARTs and LEDs on both TX/RX and USB power supply.
+<img align="left" width="100" height="100" src="http://alicja.space/NEON.png"> Neon is a PCB project designed as an adapter for FTDI FT4232H Mini Module board. It includes four marked sockets (A, B, C, D) with logic analyser output for all FTDI's UARTs and LEDs on both TX/RX and USB power supply. It was drawn and designed using [KiCad](https://kicad-pcb.org/).
 
 
 Version 1.0 is available [in the releases section](https://github.com/alicjamusial/neon/releases/tag/neon-v.1.0).
